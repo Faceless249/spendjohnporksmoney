@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    background-image: url(./john\ pork.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 30%;
+}
+
+.answer {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 510px;
+    right: 470px;
+    border-radius: 50px;
+}
+
+.decline {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 505px;
+    right: 660px;
+    border-radius: 50px;
+}

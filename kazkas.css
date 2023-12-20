@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 150vh;
+    width: 100%;
+    background: #f1f2f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, a {
+    font-family: sans-serif;
+}
+
+.header > h1 {
+    font-weight: 700;
+}
+
+.content {
+    background-color: #f1f2f6;
+    min-height: 145vh;
+    width: 80%;
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "header header header header"
+    "header2 header2 header2 header2"
+    "java java bedrock bedrock"
+    "java java bedrock bedrock"
+    "java java bedrock bedrock"
+    "java java bedrock bedrock"
+    "legends legends dungeons dungeons"
+    "legends legends dungeons dungeons"
+    "legends legends dungeons dungeons"
+    "legends legends dungeons dungeons"
+    "pocket pocket education education"
+    "pocket pocket education education"
+    "pocket pocket education education"
+    "pocket pocket education education"
+    "china china earth earth"
+    "china china earth earth"
+    "china china earth earth"
+    "china china earth earth"
+    "botw botw totk totk"
+    "botw botw totk totk"
+    "botw botw totk totk"
+    "botw botw totk totk"
+    ;
+    gap: 10px;
+}
+
+.langelis {
+    background-color: white;
+}
+
+.header {
+    background-color: white;
+    grid-area: header;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header2 {
+    background: linear-gradient(180deg,#2ecc71,#1abc9c);
+    grid-area: header2;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.java {
+    grid-area: java;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bedrock {
+    grid-area: bedrock;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.legends {
+    grid-area: legends;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dungeons {
+    grid-area: dungeons;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pocket {
+    grid-area: pocket;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education {
+    grid-area: education;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.china {
+    grid-area: china;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.earth {
+    grid-area: earth;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botw {
+    grid-area: botw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.totk {
+    grid-area: totk;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.john {
+    background-image: url(./john\ pok.jpeg);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: rgb(120, 200, 0);
+    border-radius: 10px;
+    box-shadow: 3px 3px #999;
+}
+
+button:active {
+    box-shadow: 1.3px 1.3px #666;
+    transform: translateY(2.5px);
+    transform: translateZ(2.5px);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+span, h2 {
+    font-size: 50px;
+}
+
+.img {
+    background-size: cover;
+}
+
+.totkimg {
+    background-image: url(./totk.png);
+    width: 125px;
+    height: 100px;
+}
+
+.totk > h5 {
+    width: 140px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    height: 60px;
+  }
+
+.botwimg {
+    background-image: url(./botw.webp);
+    width: 140px;
+    height: 100px;
+}
+
+.earthimg {
+    background-image: url(./Minecraft_Earth_Logo.webp);
+    width: 240px;
+    height: 80px;
+}
+
+.chinaimg {
+    background-image: url(./MinecraftChinaLogo.webp);
+    width: 240px;
+    height: 80px;
+}
+
+.educationimg {
+    background-image: url(./minecraft\ education.png);
+    width: 240px;
+    height: 57px;
+}
+
+.pocketimg {
+    background-image: url(./minecraft\ pocket.png);
+    width: 245px;
+    height: 57px;
+}
+
+.dungeonsimg {
+    background-image: url(./minecraft\ dungeons.jpeg);
+    width: 245px;
+    height: 57px;
+}
+
+.legendsimg {
+    background-image: url(./Minecraft_Legends_Logo.webp);
+    width: 245px;
+    height: 63px;
+}
+
+.bedrockimg {
+    background-image: url(./minecraft\ bedrock.png);
+    width: 277px;
+    height: 50px;
+}
+
+.javaimg {
+    background-image: url(./Minecraft-java-logo.webp);
+    width: 277px;
+    height: 65px;
+}
+
